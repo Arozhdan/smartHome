@@ -3,10 +3,20 @@
 *::before{
   box-sizing: border-box;
 }
+
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .container{
   max-width: 1160px;
